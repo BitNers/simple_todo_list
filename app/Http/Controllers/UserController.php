@@ -10,7 +10,7 @@ class UserController extends Controller
 
     // Criar Usuário novo para utilizar o sistema.
     public function createNewUser(Request $req){
-        dd($req);
+        return $req['username'];
     }
 
 
